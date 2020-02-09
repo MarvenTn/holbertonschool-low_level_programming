@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-char ch = '1';
-for (ch = '1'; ch <= '9'; ch++)
+char ch = '0';
+for (ch = '0'; ch <= '9'; ch++)
 {
 putchar(ch);
 }
