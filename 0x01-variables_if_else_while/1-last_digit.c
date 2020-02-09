@@ -1,13 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * main - Short description, single line
- * @void: Description of parameter x
-(*
-* Description: Longer description of the function)?
-(* section header: Section description)*
-* Return: Description of the returned value
+/*
+*main-entry point
+*
+*return: always 0
 */
 int main(void)
 {
@@ -19,11 +16,11 @@ if (ld > 5)
 {
 printf("last digit of %d is %d and is greater than 5\n", n, ld);
 }
-if (ld < 6)
+else if ((ld < 6) && (ld != 0))
 {
 printf("last digit of %d is %d and is less than 6 and not 0\n", n, ld);
 }
-if (ld == 0)
+else
 {
 printf("last digit of %d is %d and is 0\n", n, ld);
 }
